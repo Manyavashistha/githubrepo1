@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import ToggleBtn from './toggle';
+import SimpleMessage from './SimpleMessage';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       
     <div>
       <ToggleBtn/>
+      <SimpleMessage/>
     </div>
     </div>
   );
